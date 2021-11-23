@@ -1,18 +1,35 @@
 header {
     height: 80px;
+    color: #fff;
     background-color: #2C3E50;
 }
-
 
 .green-bg {
     color: #fff;
     background-color: #1ABC9C;
 }
 
-. {
+.green-text {
+    color: #1ABC9C;
+}
+
+.info-bg {
+    color: #fff;
     background-color: #3A546D;
 }
 
 .avatar-box img {
     height: 200px;
  }
+
+.icon {
+    width: 40px;
+    padding: 5px;
+    border: 1px #fff solid;
+    border-radius: 100%;
+}
+
+footer {
+    color: #fff;
+    background-color: #2C3E50;
+}
