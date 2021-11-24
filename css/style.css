@@ -1,7 +1,14 @@
-header {
-    height: 80px;
+header,footer {
     color: #fff;
     background-color: #2C3E50;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.avatar-box img {
+    height: 200px;
 }
 
 .green-bg {
@@ -9,18 +16,20 @@ header {
     background-color: #1ABC9C;
 }
 
-.green-text {
-    color: #1ABC9C;
+input,textarea {
+    border: none;
+    border-bottom: 1px #ccc solid;
+}
+
+.btn-send button {
+    color: #fff;
+    background-color: #1ABC9C;
 }
 
 .info-bg {
     color: #fff;
     background-color: #3A546D;
 }
-
-.avatar-box img {
-    height: 200px;
- }
 
 .icon {
     width: 40px;
@@ -29,7 +38,25 @@ header {
     border-radius: 100%;
 }
 
-footer {
-    color: #fff;
-    background-color: #2C3E50;
+.green-text {
+    color: #1ABC9C;
+}
+
+.fa-star::before {
+
+}
+
+.fa-star::after {
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .navbar-nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
 }
